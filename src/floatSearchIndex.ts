@@ -1286,9 +1286,9 @@ class FloatSearchModal extends Modal {
 		});
 
 		setTimeout(async () => {
-			await this.searchLeaf.view.setState(this.state, {
-				history: false,
-			});
+			//await this.searchLeaf.view.setState(this.state, {
+			//	history: false,
+			//});
 			this.state?.current
 				? (
 						this.searchLeaf.view as SearchView
